@@ -105,10 +105,10 @@ snake[0] = {
 
 /* Основной код */
 document.addEventListener("keydown", direction);
-//arrowLeft.addEventListener("click", clickLeft);
-//arrowRight.addEventListener("click", clickRight);
-//arrowUp.addEventListener("click", clickUp);
-//arrowDown.addEventListener("click", clickDown);
+arrowLeft.addEventListener("click", clickLeft);
+arrowRight.addEventListener("click", clickRight);
+arrowUp.addEventListener("click", clickUp);
+arrowDown.addEventListener("click", clickDown);
 
 function clickLeft () {
 	dir = "left";
