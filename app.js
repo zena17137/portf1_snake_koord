@@ -31,7 +31,6 @@ foodImg1.src = "food1.png";
 const foodImg2 = new Image();
 foodImg2.src = "food2.png"
 //foodImg2.src = "food2.jpg";
-
 const foodImg3 = new Image();
 foodImg3.src = "food3.png";
 
