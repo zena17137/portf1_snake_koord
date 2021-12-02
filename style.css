@@ -29,7 +29,7 @@ canvas {
 	color: #C81069;
 }
 
-@media (min-width: 1033px) {
+@media (min-width: 992px) {
 	.touch {
 		display: none;
 	}
