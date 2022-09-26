@@ -1,4 +1,4 @@
-/* Переменные */
+// ! Константи
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
@@ -14,6 +14,8 @@ const arrowDown = document.getElementById('button-down');
 // 2 = left;
 // 3 = down;
 // 0 = up;
+
+// @ Переменние
 let sideId = Math.floor(Math.random() * 4);
 
 let sideFoodXP;
@@ -141,7 +143,7 @@ snake[0] = {
 };
 
 
-/* Основной код */
+// @ Основной код
 document.addEventListener("keydown", direction);
 arrowLeft.addEventListener("click", clickLeft);
 arrowRight.addEventListener("click", clickRight);
