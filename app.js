@@ -383,8 +383,8 @@ function drawGame() {
 			ctx.fillRect(snake[i].x, snake[i].y, box, box);
 		}
 
-		h_c_x.innerHTML = "Координаты центра x: " + c_x;
-		h_c_y.innerHTML = "Координаты центра y: " + c_y;
+		h_c_x.innerHTML = "Координати середини x: " + c_x;
+		h_c_y.innerHTML = "Координати середини y: " + c_y;
 
 		s_x.innerHTML = "x: " + snake[0].x;
 		s_y.innerHTML = "y: " + snake[0].y;
